@@ -1,0 +1,29 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    width: 400px;
+    height: 95vh;
+    background-color: black;
+    border: 2px solid black;
+    overflow-y: scroll;
+    border-radius: 10px;
+    box-shadow: rgba(255, 255, 255, 0.2) 0px 48px 100px 0px;
+}
+
+
+.container{
+    overflow-y: scroll;
+}
+.container::-webkit-scrollbar {
+    display: none;
+}
+
+
+.container1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: white;
+}

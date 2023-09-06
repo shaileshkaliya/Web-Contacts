@@ -1,0 +1,33 @@
+.form-div {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.form-div form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: center;
+  align-self: center;
+}
+
+.form-div input {
+  width: 320px;
+  height: 50px;
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  border-radius: 5px;
+  /* outline: none; */
+  border: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
