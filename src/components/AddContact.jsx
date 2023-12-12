@@ -3,10 +3,6 @@ import "./AddContact.css";
 
 let AddContact = ({addToList,editContact,updateContact}) => {
   let data = { name: "", number: "",id:"" };
-  // let btnName = "Add Contact";
-  // const[btn,setBtn] = useState(btnName);
-  // let list = [];
-  // const [contactList, setContactList] = useState(list);
 
   const [contact, setContact] = useState(data);
 
@@ -57,7 +53,7 @@ let AddContact = ({addToList,editContact,updateContact}) => {
           onChange={handleChange}
           placeholder="Enter Number"
         />
-        <input type="submit" value={editContact ? "Edit Video" : "Add Video"} onClick={handleSubmit} />
+        <input type="submit" value={editContact ? "Edit Contact" : "Add Contact"} onClick={handleSubmit} />
       </form>
     </div>
   );
